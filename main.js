@@ -11,10 +11,11 @@ function addSong(songName, artistName, songUrl){
         <strong> ${songName} </strong>
         - ${artistName}
         <a href="${songUrl}" target="_blanck" >Reproducir</a>
-        <button id="delete.btn" >Eliminar</button>
+        <button  class="delete.btn" >Eliminar</button>
     `;
     //Agregar al HTML
     Playlist.appendChild(listSong);
+
 }
 
 
